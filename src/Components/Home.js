@@ -23,14 +23,11 @@ import React from 'react'
                         ()=>{props.addToCartHandler({pice:1000,name:'i phone 11'})}
                         }>
                         Add To Cart</button>
-                </div>
-
-                <div className="btn-wrapper item">
                     <button style={{backgroundColor:'blue'}}
-                    onClick={
-                        ()=>{props.removeToCartHandler({pice:1000,name:'i phone 11'})}
-                        }>
-                        Remove To Cart</button>
+                onClick={
+                    ()=>{props.removeToCartHandler({pice:1000,name:'i phone 11'})}
+                    }>
+                    Remove To Cart</button>    
                 </div>
             </div>
         </div>
